@@ -30,6 +30,6 @@
 
 ## English summary
 
-This repository preserves a UTF-8 Chinese wuxia character dossier titled **沈策古风剧情设定完整版.txt** (Shen Ce: Complete Wuxia Character Setting). It is commonly labeled online as a “DeepSeek 96MB TXT” sample, but the file alone does not verify its origin or prove a data leak. The repository includes Python-derived statistics on its structure, repeated lines, chronology, and visible `undefined` artifacts.
+This repository preserves a UTF-8 Chinese wuxia character dossier titled **沈策古风剧情设定完整版.txt** (Shen Ce: Complete Wuxia Character Setting), discussed in connection with the “DeepSeek 96MB TXT” label. The label is not verified provenance: the file alone does not establish its origin or prove a data leak. The repository includes Python-derived statistics on its structure, repeated lines, chronology, and visible `undefined` artifacts.
 
 **Search terms:** DeepSeek 96MB TXT, 沈策古风剧情设定, 沈策 TXT, Chinese wuxia character dossier.
