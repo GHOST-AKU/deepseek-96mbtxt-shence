@@ -4,6 +4,8 @@
 
 [下载 TXT 文件](./沈策古风剧情设定完整版.txt)
 
+[下载引用去重版（约 33.15 MB）](./沈策古风剧情设定完整版_引用去重版.txt)
+
 文件是一套围绕沈策展开的虚构古风／武侠人物档案，采用仿档案体，包含人物生平、逐日编年、旧案卷宗、人物关系、书信、武学、器物和江湖异闻。文件约 96 MiB，UTF-8 编码。
 
 “DeepSeek 96MB TXT”是网络讨论中用于查找这份文件的称呼；本仓库公开的是文件本身，这一称呼不单独证明其生成来源。
@@ -17,6 +19,18 @@
 | 大小 | 100,683,627 bytes（约 96.02 MiB） |
 | 字符数 | 34,305,593 |
 | 行数 | 935,682 |
+
+## 引用去重版
+
+去重版保留原文的全部行位和顺序：重复行替换为 `〔重复行#000075〕` 形式的引用，数字指向去重版中首次出现该原文的行号。它约 33.15 MB，比原文件缩小约 67%，且可无损还原。
+
+使用 Python 还原：
+
+```bash
+python expand_deduplicated.py "沈策古风剧情设定完整版_引用去重版.txt"
+```
+
+默认输出 `沈策古风剧情设定完整版_还原版.txt`。也可以在命令末尾指定输出路径。
 
 ## 文本结构
 
@@ -32,6 +46,6 @@
 
 ## English
 
-Download the complete UTF-8 text file **沈策古风剧情设定完整版.txt**, a Chinese wuxia character dossier about Shen Ce. It contains a biography, a day-by-day chronicle, case records, character profiles, letters, martial arts, artifacts, and rumors. The file is approximately 96 MiB. “DeepSeek 96MB TXT” is included as a search term associated with online discussion; this repository makes the text file available and does not independently verify its origin.
+Download the complete UTF-8 text file **沈策古风剧情设定完整版.txt**, a Chinese wuxia character dossier about Shen Ce, or use the losslessly reconstructable line-reference edition to save about 67% of the text size. “DeepSeek 96MB TXT” is included as a search term associated with online discussion; this repository makes the file available and does not independently verify its origin.
 
 **Search terms:** 沈策古风剧情设定完整版 TXT 下载, DeepSeek 96MB TXT, 沈策 TXT, Chinese wuxia character dossier.
